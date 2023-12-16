@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech</title>
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--Minha CSS-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<!--Navbar-->
+<body>
+        <header class="container mt-3">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand logo text" href="#"><i class="fa-solid fa-table-cells logo-icon"></i>
+                    Fintech </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navegation">
+                        <i class="fa-solid fa-align-rigth"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="Sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Serviços">Serviços</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Agências">Agências</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Configurações">Configurações</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                Cartões
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                    data-bs-target="caseModal1"> Cartão Débito</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                    data-bs-target="caseModal1"> Cartão Crédito</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                    data-bs-target="caseModal1"> Cartão Pensonista</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="redes">Redes</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--Fim navbar-->
+
+        <!--Investimentos-->
+        <section class="container mt-5 investimentos" id="Investimentos">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="my-title display-5 my-4">Os melhores investimentos</h2>
+                    <h3 class="m-4">Os melhores rendimentos no CDI</h3>
+                    <a href="" class="btn btn-primary btn-lg">Mais informações <i
+                    class="fa-solid fa-arrow-right-long ms-1"></i></a>
+                </div> 
+            <div class="col-lg-6 text-center">
+                <img src="./images/imagemivestimento.jpg" alt="ilustração imagem sobre investimento" class="img-fluid">
+            </div>
+            </div>
+        </section>
+        <!--Fim investimentos-->    
+
+        <!--Serviços-->
+        <section class="container my-5" id="servicos">
+            <h4 class="my-title text-center my-mt">Serviços</h4>
+            <h3 class="text-center my-tytle mb-4">Explore nossas opções</h3>
+
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-lg-4 my-2">
+                    <div class="card text-center p-4">
+                        <img src="./images/iconepix.png" alt="ilustração logo pix" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">PIX</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Provident quae unde exercitationem omnis! Id, soluta aliquid quibusdam officiis sequi vitae.</p>
+                            <a href="#" class="btn btn-primary">Mais informações</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 my-2">
+                    <div class="card text-center p-4">
+                        <img src="./images/iconetransferencia.png" alt="ilustração logo transferencia" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Transferência</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Provident quae unde exercitationem omnis! Id, soluta aliquid quibusdam officiis sequi vitae.</p>
+                            <a href="#" class="btn btn-primary">Mais informações</a>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="col-lg-4 my-2">
+                    <div class="card text-center p-4">
+                        <img src="./images/iconepagar.png" alt="ilustração logo pagar" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Pagar</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Provident quae unde exercitationem omnis! Id, soluta aliquid quibusdam officiis sequi vitae.</p>
+                            <a href="#" class="btn btn-primary">Mais informações</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 my-2">
+                    <div class="card text-center p-4">
+                        <img src="./images/iconeextrato.png" alt="ilustração logo extrato" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Extrato</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Provident quae unde exercitationem omnis! Id, soluta aliquid quibusdam officiis sequi vitae.</p>
+                            <a href="#" class="btn btn-primary">Mais informações</a>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="col-lg-4 my-2">
+                    <div class="card text-center p-4">
+                        <img src="./images/iconeinvestimento.png" alt="ilustração logo investimento" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Investimento</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Provident quae unde exercitationem omnis! Id, soluta aliquid quibusdam officiis sequi vitae.</p>
+                            <a href="#" class="btn btn-primary">Mais informações</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 my-2">
+                    <div class="card text-center p-4">
+                        <img src="./images/iconecartoes.png" alt="ilustração logo cartoes" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Cartões</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Provident quae unde exercitationem omnis! Id, soluta aliquid quibusdam officiis sequi vitae.</p>
+                            <a href="#" class="btn btn-primary">Mais informações</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim Serviços-->
+
+        <!--Redes Sociais-->
+        <section class="container-fluid bg-blue-2 mt-5" id="redes">
+            <div class="container py-5">
+                <h4 class="my-title text-center">Rede Sociais</h4>
+                <h3 class="text-center my-title mb-4">Siga nossas redes</h3>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-3">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-3 my-4 text-center">
+                                <p>
+                                    <i class="fab fa-facebook icon"></i>
+                                </p>
+                            </div>
+                            <div class="col-lg-3 my-4 text-center">
+                                <p>
+                                    <i class="fab fa-twitter icon"></i>
+                                </p>
+                            </div>
+                            <div class="col-lg-3 my-4 text-center">
+                                <p>
+                                    <i class="fab fa-instagram icon"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim Redes Sociais-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
